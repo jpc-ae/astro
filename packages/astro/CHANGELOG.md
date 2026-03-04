@@ -1,5 +1,15 @@
 # astro
 
+## 6.0.0-beta.19
+
+### Patch Changes
+
+- [#15760](https://github.com/withastro/astro/pull/15760) [`f49a27f`](https://github.com/withastro/astro/commit/f49a27fd2ac2559c06671979487f642360791a92) Thanks [@ematipico](https://github.com/ematipico)! - Fixed an issue where queued rendering wasn't correctly re-using the saved nodes.
+
+- [#15756](https://github.com/withastro/astro/pull/15756) [`b6c64d1`](https://github.com/withastro/astro/commit/b6c64d1760ded517db37e1dd86a909959f7f619d) Thanks [@matthewp](https://github.com/matthewp)! - Hardens the dev server by validating Sec-Fetch metadata headers to restrict cross-origin subresource requests
+
+- [#15414](https://github.com/withastro/astro/pull/15414) [`faedcc4`](https://github.com/withastro/astro/commit/faedcc40bccc43e27a53eee495b34448532866d6) Thanks [@sapphi-red](https://github.com/sapphi-red)! - Fixes a bug where some requests to the dev server didn't start with the leading `/`.
+
 ## 6.0.0-beta.18
 
 ### Major Changes
